@@ -1,16 +1,10 @@
-var _  = require('lodash')
-  , fs = require('fs')
-  ;
+import _ from 'lodash';
+import fs from 'fs';
 
 module.exports = function () {
 
-  var input = fs.readFileSync('input.txt', 'utf8').split('\n').map(function (v) {
-        return v;
-      })
-    , fn    = function () {
-        return 0;
-      }
-    ;
+  const input = fs.readFileSync('input.txt', 'utf8').split('\n').map(v => v);
+  const fn = () => 0;
 
   return {
 
