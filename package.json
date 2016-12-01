@@ -1,0 +1,24 @@
+{
+  "name": "AdventOfCode",
+  "version": "2015.12.18",
+  "author": "Jakub Chrzanowski",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsz/AdventOfCode.git"
+  },
+  "scripts": {
+    "nodejs": "node app.js",
+    "perl": "perl app.pl",
+    "php": "php app.php",
+    "python": "python2 app.py"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "lodash": "^3.10.1",
+    "md5": "^2.0.0",
+    "slang": "^0.3.0",
+    "yargs": "^3.30.0"
+  },
+  "devDependencies": {}
+}
