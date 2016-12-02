@@ -26,7 +26,7 @@ Below there is a quick list of all available solutions:
  
 | Day | Name                                        | NodeJS                     | PHP                         | Python                        | Perl                       |
 |:---:| ------------------------------------------- |:--------------------------:|:---------------------------:|:-----------------------------:|:--------------------------:|
-| 01  | [?][1]                         | [:star:](./day01/index.js) | [:star:](./day01/index.php) | [:star:](./day01/__init__.py) | [:star:](./day01/index.pl) |
+| 01  | [No Time for a Taxicab][1]                  | [:star:](./day01/index.js) |                             |                               |                            |
 
 [1]: http://adventofcode.com/2016/day/1
 
