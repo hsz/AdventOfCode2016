@@ -1,12 +1,19 @@
 import _ from 'lodash';
-import { input } from '../utils';
+import { input, test } from '../utils';
+
+const data = file => input(file).split('\n').map(v => _(v.trim().split(/ +/).map(Number)).value());
 
 module.exports = () => {
-  const input = input().split('\n').map(v => _(v.trim().split(/ +/).map(Number)).value());
-  const fn = input => _.cloneDeep(input).map(a => a.sort((a, b) => a - b)).filter(([a, b, c]) => (a + b > c)).length;
+  const fn = file => zip => {
+    const input = zip ? _.chunk([].concat(..._.zip(...data(file))), 3) : data(file);
+    return _.cloneDeep(input).map(a => a.sort((a, b) => a - b)).filter(([a, b, c]) => (a + b > c)).length;
+  };
+
+  test(fn('test')(), 2);
+  test(fn('test')(true), 3);
 
   return {
-    one: fn(input),
-    two: fn(_.chunk([].concat(..._.zip(...input)), 3))
+    one: fn()(),
+    two: fn()(true)
   };
 };
