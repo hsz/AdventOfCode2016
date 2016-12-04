@@ -1,8 +1,8 @@
 import _ from 'lodash';
-import fs from 'fs';
+import { input } from '../utils';
 
-module.exports = function () {
-  const input = fs.readFileSync('input.txt', 'utf8').trim().split(', ').map(([k, ...v]) => [k === 'R' ? 1 : -1, +v.join('')]);
+module.exports = () => {
+  const input = input().split(', ').map(([k, ...v]) => [k === 'R' ? 1 : -1, +v.join('')]);
   const sum = ([x, y]) => Math.abs(x) + Math.abs(y);
   const fn = (back, map = [[0, 0]]) => sum((() => {
     for (let [sign, val] of input) {
@@ -17,10 +17,7 @@ module.exports = function () {
   })());
 
   return {
-
     one: fn(),
-
     two: fn(true)
-
   };
 };
