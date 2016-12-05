@@ -6,4 +6,4 @@ export const input = (filename = 'input') => {
   return fs.readFileSync(`${filename}.txt`, 'utf8').trim();
 };
 
-export const sort = (data, fn) => _.cloneDeep(data).map(a => a.sort(fn));
+export const sort = (data, fn) => _(data).map(a => a.sort(fn)).value();

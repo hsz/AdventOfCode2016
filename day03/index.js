@@ -6,7 +6,7 @@ const data = file => input(file).split('\n').map(v => _(v.trim().split(/ +/).map
 module.exports = () => {
   const fn = file => zip => {
     const input = zip ? _.chunk([].concat(..._.zip(...data(file))), 3) : data(file);
-    return sort(input, (a, b) => a - b).filter(([a, b, c]) => (a + b > c)).length;
+    return sort(input).filter(([a, b, c]) => (a + b > c)).length;
   };
 
   test(fn('test')(), 2);
