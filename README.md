@@ -28,8 +28,12 @@ Below there is a quick list of all available solutions:
 |:---:| ------------------------------------------- |:--------------------------:|:---------------------------:|:-----------------------------:|:--------------------------:|
 | 01  | [No Time for a Taxicab][1]                  | [:star:](./day01/index.js) |                             |                               |                            |
 | 02  | [Bathroom Security][2]                      | [:star:](./day02/index.js) |                             |                               |                            |
-| 02  | [Squares With Three Sides][3]               | [:star:](./day03/index.js) |                             |                               |                            |
+| 03  | [Squares With Three Sides][3]               | [:star:](./day03/index.js) |                             |                               |                            |
+| 04  | [Security Through Obscurity][4]             | [:star:](./day04/index.js) |                             |                               |                            |
+| 05  | [How About a Nice Game of Chess?][5]        | [:star:](./day05/index.js) |                             |                               |                            |
 
 [1]: http://adventofcode.com/2016/day/1
 [2]: http://adventofcode.com/2016/day/2
 [3]: http://adventofcode.com/2016/day/3
+[4]: http://adventofcode.com/2016/day/4
+[5]: http://adventofcode.com/2016/day/5

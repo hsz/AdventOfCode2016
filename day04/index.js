@@ -7,7 +7,6 @@ module.exports = () => {
   const clear = file => data(file).filter(([name, id, sum]) => _.flatten(sort(_.invertBy(_.countBy(name))).reverse()).slice(0, 5).join('') === sum);
   const rot = (text, r) =>  text.replace(/[a-zA-Z]/g, c => String.fromCharCode((c <= 'Z' ? 90 : 122) >= (c = c.charCodeAt(0) + r) ? c : c - 26));
 
-
   const fn = file => () => clear(file).reduce((r, [, id]) => r + +id, 0);
   const fn2 = file => f => clear(file).find(([name, id]) => rot(name, id % 26) === f)[1];
 
