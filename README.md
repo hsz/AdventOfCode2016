@@ -1,4 +1,4 @@
-Advent of Code 2016 <sub>hsz 6<sup>:star:</sup></sub>
+Advent of Code 2016 <sub>hsz 10<sup>:star:</sup></sub>
 =================================================
 
 Here are presented my solutions for the [Advent of Code 2016](http://adventofcode.com/2016) programming puzzles.
