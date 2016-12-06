@@ -1,4 +1,4 @@
-Advent of Code 2016 <sub>hsz 10<sup>:star:</sup></sub>
+Advent of Code 2016 <sub>hsz 12<sup>:star:</sup></sub>
 =================================================
 
 Here are presented my solutions for the [Advent of Code 2016](http://adventofcode.com/2016) programming puzzles.
@@ -31,9 +31,11 @@ Below there is a quick list of all available solutions:
 | 03  | [Squares With Three Sides][3]               | [:star:](./day03/index.js) |                             |                               |                            |
 | 04  | [Security Through Obscurity][4]             | [:star:](./day04/index.js) |                             |                               |                            |
 | 05  | [How About a Nice Game of Chess?][5]        | [:star:](./day05/index.js) |                             |                               |                            |
+| 06  | [Signals and Noise][6]                      | [:star:](./day06/index.js) |                             |                               |                            |
 
 [1]: http://adventofcode.com/2016/day/1
 [2]: http://adventofcode.com/2016/day/2
 [3]: http://adventofcode.com/2016/day/3
 [4]: http://adventofcode.com/2016/day/4
 [5]: http://adventofcode.com/2016/day/5
+[6]: http://adventofcode.com/2016/day/6
