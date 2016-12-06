@@ -1,17 +1,17 @@
-import _ from 'lodash';
-import fs from 'fs';
+import { input, test } from '../utils';
+
+const data = file => input().split('\n').map(v => v);
 
 module.exports = function () {
 
-  const input = fs.readFileSync('input.txt', 'utf8').split('\n').map(v => v);
-  const fn = () => 0;
-
-  return {
-
-    one: fn(),
-
-    two: fn()
-
+  const fn = file => () => {
+    const input = data(file);
   };
 
+  test(fn('test')(), );
+
+  return {
+    one: fn(),
+    two: fn()
+  };
 };
