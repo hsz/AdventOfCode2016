@@ -3,37 +3,30 @@ Advent of Code 2016 <sub>hsz 16<sup>:star:</sup></sub>
 
 Here are presented my solutions for the [Advent of Code 2016](http://adventofcode.com/2016) programming puzzles.
 
-For every day I present the solutions in various languages: `NodeJS`,`PHP`, `Python` and `Perl`.
+For every day I present the solutions in `NodeJS` with `ES6` flavours.
 
 To run specified solution, just call:
 
-    npm run TYPE DAY
+    npm start DAY
     
-where `TYPE` is the type of the solution and `DAY` is numeric value in range `1-25`, i.e:
+where `DAY` is numeric value in range `1-25`, i.e:
 
-    npm run node 3
-
-Available types are the language's name in the lowercase:
-
-- `nodejs`
-- `php`
-- `python`
-- `perl`
+    npm start 3
 
 
 Below there is a quick list of all available solutions:
 
  
-| Day | Name                                        | NodeJS                     | PHP                         | Python                        | Perl                       |
-|:---:| ------------------------------------------- |:--------------------------:|:---------------------------:|:-----------------------------:|:--------------------------:|
-| 01  | [No Time for a Taxicab][1]                  | [:star:](./day01/index.js) |                             |                               |                            |
-| 02  | [Bathroom Security][2]                      | [:star:](./day02/index.js) |                             |                               |                            |
-| 03  | [Squares With Three Sides][3]               | [:star:](./day03/index.js) |                             |                               |                            |
-| 04  | [Security Through Obscurity][4]             | [:star:](./day04/index.js) |                             |                               |                            |
-| 05  | [How About a Nice Game of Chess?][5]        | [:star:](./day05/index.js) |                             |                               |                            |
-| 06  | [Signals and Noise][6]                      | [:star:](./day06/index.js) |                             |                               |                            |
-| 07  | [Internet Protocol Version 7][7]            | [:star:](./day07/index.js) |                             |                               |                            |
-| 08  | [Two-Factor Authentication][8]              | [:star:](./day08/index.js) |                             |                               |                            |
+| Day | Name                                        | Solutions                  |
+|:---:| ------------------------------------------- |:--------------------------:|
+| 01  | [No Time for a Taxicab][1]                  | [:star:](./day01/index.js) |
+| 02  | [Bathroom Security][2]                      | [:star:](./day02/index.js) |
+| 03  | [Squares With Three Sides][3]               | [:star:](./day03/index.js) |
+| 04  | [Security Through Obscurity][4]             | [:star:](./day04/index.js) |
+| 05  | [How About a Nice Game of Chess?][5]        | [:star:](./day05/index.js) |
+| 06  | [Signals and Noise][6]                      | [:star:](./day06/index.js) |
+| 07  | [Internet Protocol Version 7][7]            | [:star:](./day07/index.js) |
+| 08  | [Two-Factor Authentication][8]              | [:star:](./day08/index.js) |
 
 [1]: http://adventofcode.com/2016/day/1
 [2]: http://adventofcode.com/2016/day/2

@@ -1,14 +1,15 @@
 {
   "name": "AdventOfCode",
-  "version": "2016.12.6",
+  "version": "2016.12.8",
   "author": "Jakub Chrzanowski",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hsz/AdventOfCode.git"
+    "url": "git+https://github.com/hsz/AdventOfCode2016.git"
   },
+  "main": "app.js",
   "scripts": {
-    "nodejs": "babel-node --presets es2015 app.js",
+    "start": "babel-node --presets es2015 app.js",
     "perl": "perl app.pl",
     "php": "php app.php",
     "python": "python2 app.py"
