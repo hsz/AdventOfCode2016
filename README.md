@@ -1,4 +1,4 @@
-Advent of Code 2016 <sub>hsz 12<sup>:star:</sup></sub>
+Advent of Code 2016 <sub>hsz 14<sup>:star:</sup></sub>
 =================================================
 
 Here are presented my solutions for the [Advent of Code 2016](http://adventofcode.com/2016) programming puzzles.
@@ -32,6 +32,7 @@ Below there is a quick list of all available solutions:
 | 04  | [Security Through Obscurity][4]             | [:star:](./day04/index.js) |                             |                               |                            |
 | 05  | [How About a Nice Game of Chess?][5]        | [:star:](./day05/index.js) |                             |                               |                            |
 | 06  | [Signals and Noise][6]                      | [:star:](./day06/index.js) |                             |                               |                            |
+| 07  | [Internet Protocol Version 7][7]            | [:star:](./day07/index.js) |                             |                               |                            |
 
 [1]: http://adventofcode.com/2016/day/1
 [2]: http://adventofcode.com/2016/day/2
@@ -39,3 +40,4 @@ Below there is a quick list of all available solutions:
 [4]: http://adventofcode.com/2016/day/4
 [5]: http://adventofcode.com/2016/day/5
 [6]: http://adventofcode.com/2016/day/6
+[7]: http://adventofcode.com/2016/day/7
