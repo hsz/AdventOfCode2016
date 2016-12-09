@@ -6,12 +6,14 @@ module.exports = function () {
 
   const fn = file => () => {
     const input = data(file);
+    console.log('input', input);
+    return 0;
   };
 
-  test(fn('test')(), );
+  test(fn('test')(), 0);
 
   return {
-    one: fn(),
-    two: fn()
+    one: fn()(),
+    two: fn()()
   };
 };
