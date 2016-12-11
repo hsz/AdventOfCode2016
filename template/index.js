@@ -1,8 +1,8 @@
 import { input, test } from '../utils';
 
-const data = file => input().split('\n').map(v => v);
+const data = file => input(file).split('\n').map(v => v);
 
-module.exports = function () {
+module.exports = () => {
 
   const fn = file => () => {
     const input = data(file);

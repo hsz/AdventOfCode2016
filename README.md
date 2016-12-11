@@ -1,4 +1,4 @@
-Advent of Code 2016 <sub>hsz 16<sup>:star:</sup></sub>
+Advent of Code 2016 <sub>hsz 18<sup>:star:</sup></sub>
 =================================================
 
 Here are presented my solutions for the [Advent of Code 2016](http://adventofcode.com/2016) programming puzzles.
@@ -27,6 +27,7 @@ Below there is a quick list of all available solutions:
 | 06  | [Signals and Noise][6]                      | [:star:](./day06/index.js) |
 | 07  | [Internet Protocol Version 7][7]            | [:star:](./day07/index.js) |
 | 08  | [Two-Factor Authentication][8]              | [:star:](./day08/index.js) |
+| 09  | [Explosives in Cyberspace][9]               | [:star:](./day09/index.js) |
 
 [1]: http://adventofcode.com/2016/day/1
 [2]: http://adventofcode.com/2016/day/2
@@ -36,3 +37,4 @@ Below there is a quick list of all available solutions:
 [6]: http://adventofcode.com/2016/day/6
 [7]: http://adventofcode.com/2016/day/7
 [8]: http://adventofcode.com/2016/day/8
+[9]: http://adventofcode.com/2016/day/9

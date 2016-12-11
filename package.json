@@ -1,6 +1,6 @@
 {
   "name": "AdventOfCode",
-  "version": "2016.12.8",
+  "version": "2016.12.9",
   "author": "Jakub Chrzanowski",
   "license": "ISC",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "main": "app.js",
   "scripts": {
-    "start": "babel-node --presets es2015 app.js",
+    "start": "babel-node app.js",
     "perl": "perl app.pl",
     "php": "php app.php",
     "python": "python2 app.py"
